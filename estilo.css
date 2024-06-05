@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'geliat';
+    src: url('font/geliat/Geliat-ExtraBold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'geliat_1';
+    src: url('font/Geliat-ExtraLight.otf') format('truetype');
+}
+
+body{
+    font-family: 'geliat_1';
+    background-color: #130134;
+    color:#ffffff;
+}
+
+/*Programação da nav nomeada como "nav"*/
+#nav{
+    display: flex;
+    align-items: center; 
+    font-size: 30px;
+    font-family: 'geliat';
+}
+
+/*Programação da imagem logo na nav*/
+#logo{
+    width: 115px;
+    height: 70px;
+    padding-top: 0;
+    display: flex;
+    margin-left: 310px;
+}
+
+
+/*Programação da estrutura ul da nav*/
+#nav ul{
+	display:flex;
+	flex-wrap:wrap;
+	list-style:none;
+
+}
+
+/*Programação da estrutura li (informaçções da ul, ou seja, escritas da nav) encontrada na ul da nav*/
+#nav li a{
+	padding:5px;
+	margin-right:20px;
+	text-decoration:none;
+    color:#ffffff;
+	font-size:15px;
+}
+
+/*Programação do botão de tradução da nav*/
+#traducao{
+    margin-left: 250px;
+}
+
+#conteudo_home{
+    display: flex;
+}
+
+#img1{
+    width: 100%;
+    height: 100%px;
+}
+
+#texto1{
+    margin-left: 100px;
+}
+
+#titulo1{
+    width: 350px;
+    font-size: 80px;
+    white-space: nowrap;
+    font-family: 'geliat';
+    margin-bottom: 5px;
+}
+
+#titulo2{
+    width: 350px;
+    font-size: 80px;
+    white-space: nowrap;
+    font-family: 'geliat';
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.texto_1{
+    font-size: 25px;
+    font-family: 'geliat_1';
+    white-space: nowrap;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#btn1{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #C701E2, #15E6CC );
+    color: #ffffff;
+    font-family: 'geliat';
+}
+
+/*Programação da imagem 1º da section qm_somos*/
+#img2{
+    width: 600px;
+    height: 600px;
+    mix-blend-mode: color-dodge;
+    filter: brightness(100%);
+    margin-left: 20px;
+}
+
+.texto2{
+    font-size: 25px;
+    font-family: 'geliat_1';
+    white-space: nowrap;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: 100;
+}
+
+/*Programação da div qm_somos da section qm_somos*/
+#qmsomos{
+    display: flex;
+}
+
+#titulo3{
+    margin-top: 70px;
+}
+#titulo4{
+  
+}
+
+#botoes{
+    display: flex;
+}
+
+#missao_visao_valores{
+    display: flex; /* Utiliza flexbox para alinhamento */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    text-align: center; /* Centraliza o texto dentro de cada elemento */
+    gap: 50px;
+}
+
+#img3{
+    width: 150px;
+    height: 150px;
+}
+
+#img4{
+    width: 150px;
+    height: 150px;
+}
+
+#img5{
+    width: 150px;
+    height: 150px;
+}
+
+#div_missao{
+    background-color: #FFFFFF; 
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px); /* Aplica um desfoque ao fundo */
+    background-color: rgba(255, 255, 255, 0.3); /* Define uma cor de fundo branca com transparência */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    padding: 20px; /* Adiciona preenchimento interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Adiciona uma borda semi-transparente */
+    margin: 20px; /* Adiciona margem ao redor do elemento */
+}
+
+#div_visao {
+    background-color: #FFFFFF; 
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px); /* Aplica um desfoque ao fundo */
+    background-color: rgba(255, 255, 255, 0.3); /* Define uma cor de fundo branca com transparência */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    padding: 20px; /* Adiciona preenchimento interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Adiciona uma borda semi-transparente */
+    margin: 20px; /* Adiciona margem ao redor do elemento */
+}
+
+#div_valores{
+    background-color: #FFFFFF; 
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px); /* Aplica um desfoque ao fundo */
+    background-color: rgba(255, 255, 255, 0.3); /* Define uma cor de fundo branca com transparência */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    padding: 20px; /* Adiciona preenchimento interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Adiciona uma borda semi-transparente */
+    margin: 20px; /* Adiciona margem ao redor do elemento */
+}
+
+#etapas{
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    text-align: center; /* Centraliza o texto dentro de cada elemento */
+    margin-bottom: 5px;
+}
+
+#carrossel{
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    text-align: center; /* Centraliza o texto dentro de cada elemento */
+    width: 100%;
+    margin-top: 0;
+}
+
+#contato{
+    width: 100%;
+    height: auto;
+}
+
+
+#titulo5{
+    font-family: 'geliat';
+    font-size: 60px;
+    margin-bottom: 5px;
+    background-color: #9D88C3;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#titulo6{
+    font-family: 'geliat';
+    font-size: 60px;
+    margin-top: 0;
+    background: linear-gradient(to right, #C701E2, #15E6CC );    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#img6{
+    width: 90%;
+    height: auto;
+}
+
+#linha3{
+    display: flex;
+}
+
+#linha5{
+    display: flex;
+}
+
+#foto1{
+    width: 400px;
+    height: 400px;
+}
+
+
+#foto2{
+    width: 400px;
+    height: 400px;
+}
+
+
+#foto3{
+    width: 400px;
+    height: 400px;
+}
+
+#foto4{
+    width: 400px;
+    height: 400px;
+}
+
+#foto5{
+    width: 400px;
+    height: 400px;
+}
+
+#contato{
+    font-family: 'geliat';
+    font-size: 60px;
+    margin-top: 0;
+    background: linear-gradient(to right, #C701E2, #15E6CC );    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; /* Centraliza o texto dentro de cada elemento */
+}
+
+#coluna1{
+    display: flex;
+}
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+}
+#logo2{
+    width: 200px;
+    height: 90px;
+}
+
+.linha-vertical {
+    width: 2px; /* Largura da linha */
+    height: 50px; /* Altura da linha */
+    background-color: #FFFFFF; /* Cor da linha */
+    border: none; /* Remove a borda padrão do <hr> */
+    margin: 0 auto; /* Centraliza a linha */
+}
+
+.img_footer{
+    width: 80px;
+    height: 80px;
+}
+
+    
